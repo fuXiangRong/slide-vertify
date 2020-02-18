@@ -1,0 +1,37 @@
+{
+  "id": "1645439",
+  "name": "slideVertify",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1138731",
+      "name": "check",
+      "font_class": "check",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "604646",
+      "name": "刷新",
+      "font_class": "shuaxin",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "7708027",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "8827173",
+      "name": "right",
+      "font_class": "right",
+      "unicode": "e93e",
+      "unicode_decimal": 59710
+    }
+  ]
+}
