@@ -1,30 +1,37 @@
 # slidevertify
 
-> A Vue.js project
+> A slidevertify plugin for vue
 
-## Build Setup
+## 安装插件
+npm install slideVerify
+## 引入插件 
+import slideVerify from 'slideVerify'
+Vue.use(slideVerify)
+## 用法
+用法1
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+this.$slideVerify.open({
+  showClose:true,
+  sliderText:'快拖我呀！',
+  cancel:()=>{
+    console.log('取消验证')
+  },
+  success:() => {
+    alert('验证成功');
+  }
+})
+```
+用法2
+```
+import { slideVerify } from '@/plugins/slideVerify'
+slideVerify.open({
+    showClose:false,
+    success:() => {
+    alert('验证成功');
+  }
+})
+```
+        
+## demo地址
+[预览demo](https://elevemonkey.github.io/slide-vertify/dist/index.html#/)
