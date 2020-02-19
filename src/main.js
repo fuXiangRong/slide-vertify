@@ -5,7 +5,7 @@ import App from "./App";
 import router from "./router";
 
 Vue.config.productionTip = false;
-import slideVerify from "./plugin/slideverify";
+import slideVerify from "@elevenmonkey/slideverify";
 import Antd from 'ant-design-vue'
 // import Viser from 'viser-vue'
 Vue.use(slideVerify)
