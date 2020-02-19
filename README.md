@@ -8,7 +8,7 @@ npm install slideverify
 ```
 ## 引入插件 
 ```
-import slideverify from 'slideverify'
+import slideVerify from 'slideverify'
 Vue.use(slideVerify)
 ```
 ## 用法
@@ -28,10 +28,10 @@ this.$slideVerify.open({
 ```
 用法2
 ```
-import { slideVerify } from '@/plugins/slideVerify'
+import { slideVerify } from 'slideverify'
 slideVerify.open({
     showClose:false,
-    success:() => {
+    success:() => {v
     alert('验证成功');
   }
 })
