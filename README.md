@@ -3,10 +3,16 @@
 > A slidevertify plugin for vue
 
 ## 安装插件
+
+```
 npm install slideVerify
+```
 ## 引入插件 
+
+```
 import slideVerify from 'slideVerify'
 Vue.use(slideVerify)
+```
 ## 用法
 用法1
 
